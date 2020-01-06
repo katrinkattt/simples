@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/menu.jsx';
 import Blocks from './components/blocks.jsx';
-// import Form from './components/form';
+import Form from './components/form';
 import Footer from './components/footer';
 import Plane from './components/plane';
 import './App.css';
@@ -20,7 +20,7 @@ function App() {
         <Plane />
       </section>
       <section>
-        {/* <Form /> */}
+        <Form />
       </section>
       <section>
         <Footer />

@@ -164,6 +164,7 @@ main__btn a, main__btn a:hover{
 }
 .container__plane{
   background-color: #fff;
+  height: -moz-max-content;
 }
 .component__4{
   height: 300px;

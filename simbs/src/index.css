@@ -91,9 +91,12 @@ section{
   padding: 20px;
   text-align: center;
   text-decoration: none;
-  color: #2a069e;
   font-size: 30px;
   font-weight: bolder;
+}
+main__btn a, main__btn a:hover{
+  text-decoration: none;
+  color: aquamarine;
 }
 .title__main{
   font-weight: bolder;

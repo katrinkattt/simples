@@ -6,3 +6,4 @@ this is a continuation of  react-simple(https://github.com/katrinnnKat/react-sim
 
 Это продолжение от react-simple(https://github.com/katrinnnKat/react-simple)
  
+ добавить блоков контента

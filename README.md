@@ -5,5 +5,6 @@ this is a continuation of  react-simple(https://github.com/katrinnnKat/react-sim
 Тhere is a beautiful parallax mountains
 
 Это продолжение от react-simple(https://github.com/katrinnnKat/react-simple)
- 
- добавить блоков контента
+Здесь красивый параллакс гор  
+
+-добавить блоков контента

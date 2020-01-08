@@ -3,22 +3,20 @@ import React, {Component} from 'react';
 import TitleBlock from './titleBl';
 import TextBlock from './textBl';
 
-export default class Block extends Component {
-    render(){
-        return(
-            <div className="block_line">
-                <div className="block__one">
-                    <div className="block__foto"></div>
-                    <div key="title"id="blockTitle" className="block__title">
-                        <TitleBlock />
-                    </div>
-                    <div key="text" id="blockText" className="block__text">
-                        <TextBlock />
-                    </div>
+export default function Block(props) {
+    return(
+        <div className="block_line">
+            <div className="block__one">
+                <div className="block__foto"></div>
+                <div key="title"id="blockTitle" className="block__title">
+                    <TitleBlock />
+                </div>
+                <div key="text" id="blockText" className="block__text">
+                    <TextBlock />
                 </div>
             </div>
-        )
-    }
+        </div>
+    )
 }
 
 

@@ -10,9 +10,9 @@ export default class Form extends Component {
             <div id="forms" className="container container__form">
                 <div className="title__section">Feedback</div>
                 <div className="block__main__form">
-                    <FormBlock />
-                    <FormBlock />
-                    <FormBlock />
+                    <FormBlock label="email" placeholder="your email" id="emailInput" text="vvedite your email"/>
+                    <FormBlock label="nnumber" placeholder="your number" id="telephonInput" text="vvedite your number"/>
+                    <FormBlock label="qestion" placeholder="your qestion" id="qestionInput" text="vvedite your questions"/>
                     <BtnForm />
                 </div>
             </div>

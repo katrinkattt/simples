@@ -46,30 +46,8 @@ export default class Blocks extends Component {
         )
     }
 }
-// const words = ['commerce', 'offers', 'products'];
-// const items = words.map((titl)=> <p>{titl}</p>);
-
-// ReactDOM.render(<div>{items}</div>, document.getElementById("blockTitle"))
 
 
-// TO CHTO BILO DO ! FUNCTION
-// render(){
-//     return(
-//         <div className="container container__first">
-//             <div className="blocks">
-//             <div className="row">
-//                 <div className="col-sm">
-//                     <Block  />
-                // </div>
-//                 <div className="col-sm">
-//                     <Block />
-//                 </div>
-//                 <div className="col-sm">
-//                     <Block />
-//                 </div>
-//             </div>
-//             </div>
-//         </div>
 
-//     )
-// }
+
+

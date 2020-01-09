@@ -142,14 +142,18 @@ main__btn a, main__btn a:hover{
 .block__foto{
   height: 200px;
   width: 85%;
-  background-color: #362b2b;
+  /* background-color: #362b2b; */
   border-radius: 5px;
   margin: auto;
   margin-top: 15px;
 }
-.block__text{
+.block__title, .block__text{
   padding: 8px;
   color: #1b1717;
+  font-size: large;
+  font-weight: bold;
+}
+.block__text{
   font-size: small;
 }
 

@@ -7,4 +7,5 @@ this is a continuation of  react-simple(https://github.com/katrinnnKat/react-sim
 Это продолжение от react-simple(https://github.com/katrinnnKat/react-simple)
 Здесь красивый параллакс гор  
 
+-need add blocks with content
 -добавить блоков контента

@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import Block from './block';
+import altay from '../img/altay.jpg';
+import ural from '../img/ural.jpg';
+import tayga from '../img/tayga.jpg';
 
 
 export default class Blocks extends Component {

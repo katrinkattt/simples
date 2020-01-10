@@ -9,3 +9,4 @@ this is a continuation of  react-simple(https://github.com/katrinnnKat/react-sim
 
 -need add blocks with content
 -добавить блоков контента
+не сегодня

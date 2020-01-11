@@ -1,0 +1,106 @@
+body
+  margin: 0
+  padding: 0
+  font-family: Arial, Helvetica, sans-serif
+
+code
+  font-family: source-code-pro, Menlo, Monaco, monospace
+
+
+section
+  height: 100%
+  width: 100%
+  margin: 0 auto
+  position: relative
+
+.container
+  margin: 0 auto
+  height: 100vh
+  width: 100%
+  background-color: #262c31f3
+
+.container__first
+  margin-top: 100vh
+
+
+.scene
+  position: fixed
+  z-index: -5
+  left: 0
+  top: 0
+  bottom: 0
+  right: 0
+  min-height: 100vh
+  padding: 0
+
+.layer
+  position: absolute
+  z-index: -5
+  left: -10%
+  top: 0
+  width: 110%
+  height: 100%
+
+.layer__bg
+  background: url(./img/sky-clouds1.jpg)
+  background-size: cover
+
+.layer__0
+  background: url(./img/01.png)
+  background-size: cover
+  height: 80%
+  top: 20%
+
+.layer__1
+  background: url(./img/Mountain3.png)
+  background-size: cover
+  height: 80%
+  top: 20%
+  left: -50%
+
+.layer__2
+  background: url(./img/Mountain2.png)
+  background-size: cover
+  height: 40%
+  top: 60%
+
+.nav_bar
+  background-color: #2a069e !important
+  color: aliceblue
+  font-weight: bold
+  position: fixed
+  z-index: 2
+  width: 100%
+
+.nav_center
+  align-content: center !important
+
+.main__btn
+  height: 80px
+  width: 170px
+  background: linear-gradient(40deg, #2a069e, #0848f8)
+  box-shadow: #0848f8 2px 2px 3px
+  border-radius: 7px
+  position: absolute
+  z-index: 2
+  margin-left: 60%
+  margin-top: 240px
+  padding: 20px
+  text-align: center
+  text-decoration: none
+  font-size: 30px
+  font-weight: bolder
+  a, &:hover 
+      text-decoration: none
+      color: aquamarine
+
+
+.title__main
+  font-weight: bolder
+  color: #2a069e
+  font-size: 70px
+  text-shadow: #0848f8 2px 2px 3px
+  position: absolute
+  z-index: 2
+  margin-left: 10%
+  margin-top: 240px

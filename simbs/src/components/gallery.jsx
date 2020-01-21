@@ -1,38 +1,39 @@
 import React, {Component} from 'react';
-import Block from './block'
+import fair from '../img/fair.jpg';
+import bylk from '../img/bylk.jpg';
+import gebirge from '../img/gebirge.jpg';
+import toptop from '../img/toptop.jpg';
 
 export default class Gallery extends Component{
+    constructor(props){
+        super(props)
+        this.state=[gebirge, toptop, bylk, fair]
+    }
+
+    // list(){
+    //     var 
+    // }
+
     render(){
         return(
             <div  className="container">
+                <div className="title__section">Gallery</div>
             <div className="gallery__block">
-                <div class="container-fluid">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel__item active">
-                            <img class="" src="#" alt="Первый слайд">
-                            </img>
-                        </div>
+                    <div class="carousel__inner">
                         <div class="carousel__item">
-                            <img class="" src="#" alt="Второй слайд">
-                            </img>
-                        </div>
-                        <div class="carousel__item">
-                            <img class="" src="#" alt="Третий слайд">
+                            <img class="slaid second" src={this.state[0]}>
                             </img>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <a class="carousel-control-prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <a class="carousel-control-next" >
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
                     </a>
                     </div>
                 </div>
-            </div>
             </div>
         )
     }

@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from './components/menu.jsx';
 import Blocks from './components/blocks.jsx';
+import Plane from './components/plane';
+import Gallery from './components/gallery';
 import Form from './components/form';
 import Footer from './components/footer';
-import Plane from './components/plane';
 import './App.css';
 import './index.css';
 
@@ -18,6 +19,9 @@ function App() {
       </section>
       <section>
         <Plane />
+      </section>
+      <section>
+        <Gallery />
       </section>
       <section>
         <Form />

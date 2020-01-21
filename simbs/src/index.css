@@ -206,9 +206,22 @@ section {
   height: 100%;
 }
 
+.gallery__block {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
 .carousel__item {
-  height: 300px;
-  width: 450px;
+  height: 400px;
+  width: 550px;
+  position: relative;
+}
+
+.slaid {
+  height: 400px;
+  width: 550px;
+  position: absolute;
 }
 
 .first {

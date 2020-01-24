@@ -7,22 +7,24 @@ import toptop from '../img/toptop.jpg';
 export default class Gallery extends Component{
     constructor(props){
         super(props)
-        this.state=[gebirge, toptop, bylk, fair]
-        this.count =0
-    }
+        this.state={
+            curList: 0,
+            list: [gebirge, toptop, bylk, fair]
+            }
+        }
 
     clickList(p){
-        if(p == 'next'){
-        return this.state[(this.count+1)]
-        alert('next')
+        if(p== 'next'){
+            this.setState({
+                curList: this.state.curList +1
+            })
         }
         if(p == 'prev'){
-        return   this.state[(this.count-1)]
-        alert('prev')
+            this.setState({
+                curList: this.state.curList -1
+            })
         }
-        else{
-            p=p
-        }
+            
     }
 
 
@@ -34,7 +36,7 @@ export default class Gallery extends Component{
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel__inner">
                         <div class="carousel__item">
-                            <img class="slaid second" src={this.state[this.count]}>
+                            <img class="slaid second" style={{background: `url(${this.state.list[this.state.curList]})`}} src={this.state[this.count]}>
                             </img>
                         </div>
                     </div>

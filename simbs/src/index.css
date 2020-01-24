@@ -224,18 +224,6 @@ section {
   position: absolute;
 }
 
-.first {
-  background-color: #ffffff;
-}
-
-.second {
-  background-color: #757575;
-}
-
-.three {
-  background-color: #aa44dd;
-}
-
 footer {
   height: 250px;
   width: 100%;

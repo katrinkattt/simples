@@ -8,11 +8,23 @@ export default class Gallery extends Component{
     constructor(props){
         super(props)
         this.state=[gebirge, toptop, bylk, fair]
+        this.count =0
     }
 
-    // list(){
-    //     var 
-    // }
+    clickList(p){
+        if(p == 'next'){
+        return this.state[(this.count+1)]
+        alert('next')
+        }
+        if(p == 'prev'){
+        return   this.state[(this.count-1)]
+        alert('prev')
+        }
+        else{
+            p=p
+        }
+    }
+
 
     render(){
         return(
@@ -22,15 +34,15 @@ export default class Gallery extends Component{
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel__inner">
                         <div class="carousel__item">
-                            <img class="slaid second" src={this.state[0]}>
+                            <img class="slaid second" src={this.state[this.count]}>
                             </img>
                         </div>
                     </div>
-                    <a class="carousel-control-prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <a class="carousel-control-prev" onClick={ () => this.clickList('prev')}>
+                        <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
                     </a>
-                    <a class="carousel-control-next" >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <a class="carousel-control-next" onClick={ () => this.clickList('next')}>
+                        <span class="carousel-control-next-icon"  aria-hidden="true"></span>
                     </a>
                     </div>
                 </div>

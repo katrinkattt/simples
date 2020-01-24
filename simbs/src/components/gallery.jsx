@@ -14,17 +14,25 @@ export default class Gallery extends Component{
         }
 
     clickList(p){
-        if(p== 'next'){
+        if(this.state.curList < (this.state.list.length-1)){
+            if(p== 'next'){
+                this.setState({
+                    curList: this.state.curList +1
+                })
+            }
+            if(p == 'prev'){
+                this.setState({
+                    curList: this.state.curList -1
+                })
+            }
+
+        }
+        else{
             this.setState({
-                curList: this.state.curList +1
+                curList: 0
             })
         }
-        if(p == 'prev'){
-            this.setState({
-                curList: this.state.curList -1
-            })
-        }
-            
+        
     }
 
 

@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 
-
 function paralax(event){
     this.querySelectorAll('.layer').forEach(layer => {
         let speed = layer.getAttribute('data-speed');

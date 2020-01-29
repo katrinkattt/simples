@@ -5,7 +5,7 @@ export default class Footer extends Component{
         return(
             <footer>
                 <div className='title__section footer__text '>
-                    <p>2019</p>
+                    <p>made in 2019</p>
                 </div>
             </footer>
         )
